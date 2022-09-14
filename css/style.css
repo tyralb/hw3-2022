@@ -1,0 +1,139 @@
+body{
+    font-family:  Arial, Verdana;
+    background-color: #000000;
+    color: #ffffff;
+    margin: 20px 20px 20px 0;
+}
+
+h1{
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+
+h2{
+    font-size: 30px;
+    color: #0D0D0D; 
+    
+}
+
+p{
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    border: 10px dashed #ffffff;
+}
+
+
+div{
+    padding: 20px;
+    border: 3px solid #ffffff;
+    min-height: 125px;
+    
+}
+
+
+
+.introduction{
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2.0;
+}
+
+/* Style the red class with:
+Background color is hexadecimal value for red
+Text is aligned on the right side 
+A left margin of 50px;
+A  border of 2px on the bottom and 5px on the left; */
+
+.red{
+    background-color: #ff0000;
+    margin-left: 50px ;
+    text-align: right;
+    border-bottom: 2px;
+    border-left: 5px;
+
+}
+
+/* The blue div has the following styles
+Background color is hex value for blue
+Text is aligned on the left side
+A right margin of 50px;
+A  border of 5px on the right and 2px on the top; */
+
+.blue{
+    color: #c4c4c4;
+    background-color: #00f;
+    text-align: left;
+    margin-right: 50px;
+    border-style: solid;
+    border-right: 5px;
+    border-top: 2px;
+}
+
+.blue h2{
+    color: #c4c4c4;
+}
+
+/* WAVE YOUR PAGE!!!!  Uh oh.  Let's fix the color contrast here  – Dark on blue is too hard to read.   
+The heading and paragraph text should use #C4C4C4 */ 
+/* I DONT KNOW HOW TO DO THIS */
+
+/* The yellow div has the following styles
+Background color is hexadecimal value for yellow 
+Text is aligned on the right side
+A left margin of 50px;
+A border of 2px on the bottom and 5px on the left; */
+
+.yellow{
+    background-color: #ff0;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+    color: #707070;
+
+}
+/* WAVE YOUR PAGE!!!!  Uh oh.  Let's fix the color contrast here  too
+The paragraph text should be #707070.   */
+
+.yellow p{
+    color: #707070;
+}
+
+/* The green div has the following styles:
+The background color is hexadecimal value for green  (You must use #00EB00, #008500, or #00D800)
+Text is aligned on the left side
+A right margin of 50px;
+A  border of 5px on the right and 2px on the top; */
+
+.green{
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-style: solid;
+    border-right: 5px;
+    border-top: 2px;  
+}
+
+/* Style the default footer elements with:
+a gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000.
+A 5px solid white border. */
+footer{
+    background-image: linear-gradient(to right, #000000 ,#0066ff,#000000 );
+   border: solid 5px #ffffff;
+}
+
+/* Style any paragraphs with the footer with:
+20px text that is aligned to the right. */
+footer p{
+    font-size: 20px;
+    text-align: right;
